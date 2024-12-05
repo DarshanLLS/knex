@@ -94,7 +94,7 @@ knex<User>('users')
     // Do something with users
   });
 
-// The type of usersQueryBuilder is determined here
+// The type of usersQ
 const usersQueryBuilder = knex<User>('users').select('id');
 
 if (someCondition) {
